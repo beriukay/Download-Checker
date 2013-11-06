@@ -1,0 +1,19 @@
+{
+    "name": "RSS Fetcher",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Keep up with the latest from [insert web site].",
+    "icons": { "16" : "images/icon.png",
+               "48" : "images/48.png",
+               "128" : "images/128.png"},
+    "homepage_url": "http://google.com/",
+        "background_page": "background.html",
+        "permissions": [
+            "http://cloud.feedly.com/#latest",
+        ],
+    "browser_action": {
+        "default_icon": "images/icon.png",
+        "default_title": "Feedly Fetcher",
+        "default_popup": "popup.html"
+    }
+}
